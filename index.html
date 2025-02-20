@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO WEBSITE</title>
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- FONT AWSOME -->
+    <script src="https://kit.fontawesome.com/99f1c74766.js" crossorigin="anonymous"></script>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="scrollToTop-btn flex-center">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- THEME BUTTON -->
+    <div class="theme-btn flex-center">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+    </div>
+
+    <!-- NAVBAR -->
+    <header>
+        <div class="navbar">
+            <a href="" class="logo">KALIGITHI<span> ENOSH</span></a>
+            <div class="navigation">
+                <div class="nav-items">
+                    <div class="nav-close-btn">
+                        <i class="fa-solid fa-circle-xmark menu-close-btn"></i>
+                    </div>
+                    <a href="#home">Home</a>
+                    <a href="#about">About-me</a>
+                    <a href="#skills-grid">skills</a>
+                    <a href="#portfolio">Projects</a>
+                    <a href="#contact">Contact-me</a>
+                </div>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="fa-solid fa-bars menu-open-btn"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="home flex-center" id="home">
+
+        <div class="home-container">
+            <div class="info">
+                <div class="media-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100010452042546"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="linkedin.com/in/enosh-raju-87854b166"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="enoshraj76@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <div class="info-details">
+                    <h2>Hi, I am Enosh</h2>
+                    <h3>Software Developer</h3>
+                    <p>A passionate backend developer proficient in <span>Java</span>, <span>Spring</span>, <span>Springboot</span>, and 
+                        <span>Postgresql</span> with a knack for building scalable
+                        efficient applications.
+                    </p>
+                    <a href="#contact" class="btn">contact me <i class="fas fa-arrow-circle-right"></i></a>
+                </div>
+            </div>
+            <div class="home-img">
+                <img src="images\myphoto.jpg" alt="my-image">
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">Scroll-down <i class="fas fa-arrow-down"></i></a>
+    </section>
+
+    <section class="about section" id="about">
+        <div class="container flex-center">
+            <h1 class="section-title-01">About Me</h1>
+            <h2 class="section-title-02">About Me</h2>
+
+            <!-- CONTENT -->
+            <div class="content flex-center">
+                <div class="about-details">
+                    <div class="description">
+                        <h3>I am Enosh</h3>
+                        <h4>A <span>Software Developer</span> from <span>Hyderabad</span></h4>
+                        <p>I am a passionate backend developer with experience in building scalable and 
+                            efficient applications using Java, Spring Boot, and microservices. Currently 
+                            working as an Junior Java Engineer at Tata Consultancy Services, I have 
+                            optimized RESTful APIs, improved database performance, and led agile teams as 
+                            a Scrum Master. Previously, during my internship at Innomatics Research Labs, 
+                            I gained hands-on experience in full-stack development. I have also showcased 
+                            my technical and collaborative skills by participating in the Asia E-Bike Challenge, 
+                            where my team won awards for Best Aesthetics, Ergonomics, and Build Quality. 
+                            Constantly learning and growing, I am dedicated to building high-performance 
+                            applications that solve real-world problems.</p>
+                        <hr>
+                        <ul class="check-list">
+                            <li class="list-item">
+                                <h5><i class="fa-sharp fa-solid fa-circle-check"></i>1+ experience</h5>
+                            </li>
+                            <li class="list-item">
+                                <h5><i class="fa-sharp fa-solid fa-circle-check"></i>Java Engineer</h5>
+                            </li>
+                        </ul>
+                        <a href="Enosh-Resume.pdf" class="btn">Download CV <i class="fa-solid fa-cloud-arrow-down"></i></a>
+                    </div>
+                </div>
+                <div class="about-edu">
+                    <div class="qualification">
+                        <h1>Backend Engineer</h1>
+                        <h4>in Tata Consultancy Services</h4>
+                        <p>2023 - Present</p>
+                    </div>
+                    <div class="qualification">
+                        <h1>Intern</h1>
+                        <h4>in Innomatics Research Labs</h4>
+                        <p>Feb 2023 - Apr 2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="skills-grid">
+
+        <div class="skills-heading">
+            <h1 class="section-title-01">Skills</h1>
+            <h2 class="section-title-02">skills</h2>
+        </div>
+        
+        
+        <div class="skills-container">
+            <div class="masonry-grid">
+                <div class="skill-item wide" id="skill1"><img src="images\java-svgrepo-com.svg" alt="Java"><p>Java</p></div>
+                <div class="skill-item tall" id="skill2"><img src="images\spring-icon-svgrepo-com.svg" alt="Spring"><p>Spring</p></div>
+                <div class="skill-item wide" id="skill4"><img src="images\spring-boot.svg" alt="Springboot"><p>Springboot</p></div>
+                <div class="skill-item" id="skill3"><img src="images\springsecurity.png" alt="Spring Security"><p>Spring Security</p></div>
+                <div class="skill-item" id="skill5"><img src="images\database-svgrepo-com.svg" alt="Jdbc"><p>Jdbc</p></div>
+                <div class="skill-item tall" id="skill6"><img src="images\hibernate-svgrepo-com.svg" alt="Hibernate"><p>Hibernate</p></div>
+                <div class="skill-item" id="skill7"><img src="images\python-svgrepo-com.svg" alt="Python"><p>Python</p></div>
+                <div class="skill-item tall" id="skill8"><img src="images\Flask.svg" alt="Flask"><p>Flask</p></div>
+                <div class="skill-item" id="skill10"><img src="images\html5-svgrepo-com.svg" alt="Html5"><p>Html5</p></div>
+                <div class="skill-item wide" id="skill9"><img src="images\css-3-svgrepo-com.svg" alt="Css3"><p>Css3</p></div>
+                <div class="skill-item" id="skill11"><img src="images\javascript-svgrepo-com.svg" alt="Javascript"><p>Javascript</p></div>
+                <div class="skill-item" id="skill12"><img src="images\react-svgrepo-com.svg" alt="React Js"><p>React Js</p></div>
+                <div class="skill-item" id="skill13"><img src="images\bootstrap-svgrepo-com.svg" alt="Bootstrap"><p>Bootstrap</p></div>
+                <div class="skill-item wide" id="skill14"><img src="images\postgresql-svgrepo-com.svg" alt="PostgreSQL"><p>PostgreSQL</p></div>
+                <div class="skill-item" id="skill15"><img src="images\docker-svgrepo-com.svg" alt="Docker"><p>Docker</p></div>
+                <div class="skill-item wide" id="skill16"><img src="images\git-svgrepo-com.svg" alt="Git"><p>Git</p></div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS END -->
+
+    <section class="portfolio section" id="portfolio">
+        <div class="container flex-center">
+            <h1 class="section-title-01">Projects</h1>
+            <h2 class="section-title-02">Projects</h2>
+            <div class="content">
+                <div class="portfolio-list">
+                    <div class="img-card-container">
+                        <div class="img-card">
+                            <div class="overlay"></div>
+                            <div class="info">
+                                <h3>Web Design</h3>
+                                <span>GITHUB</span>
+                            </div>
+                            <img src="Projects-Images\naruto.png" alt="naruto-img">
+                        </div>
+                        <div class="portfolio-model flex-center">
+                            <div class="portfolio-model-body">
+                                <i class="fas fa-times portfolio-close-btn"></i>
+                                <h3>Web design</h3>
+                                <img src="Projects-Images\naruto.png" alt="img">
+                                <p>"The Naruto Website is a personal project aimed at showcasing my HTML and CSS skills.
+                                    Inspired by the popular anime series Naruto, the website features a clean and modern
+                                    design with a focus on user experience. To enhance the user experience, the website
+                                    is designed to be responsive, ensuring that it looks great and functions properly on
+                                    a variety of devices, including desktops, tablets, and smartphones. Overall, the
+                                    Naruto Website project has allowed me to hone my skills in HTML and
+                                    CSS".</p>
+                                <a
+                                    href="https://enoshraju.github.io/Naruto-fan-web/"><span>My First Website</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-card-container">
+                        <div class="img-card">
+                            <div class="overlay"></div>
+                            <div class="info">
+                                <h3>Weather Api</h3>
+                                <span>GITHUB</span>
+                            </div>
+                            <img src="Projects-Images\weather.jpg" alt="naruto-img">
+                        </div>
+                        <div class="portfolio-model flex-center">
+                            <div class="portfolio-model-body">
+                                <i class="fas fa-times portfolio-close-btn"></i>
+                                <h3>Weather Api</h3>
+                                <img src="Projects-Images\weather.jpg" alt="img">
+                                <p>"I have developed a weather API project using HTML, CSS, and JavaScript. Through this
+                                    project, I have learned how to access API data using fetch, promises, and object
+                                    properties, which has enabled me to display detailed weather information for
+                                    specific locations on my website. The design of the project is minimal and
+                                    aesthetically pleasing, and it is also fully responsive, allowing users to access
+                                    the weather information from any device. This project has been a great opportunity
+                                    for me to improve my programming skills and gain a deeper understanding of API
+                                    integration and data display on the web."</p>
+                                <a
+                                    href=" https://enoshraju.github.io/Weather-api/"><span>Weather Forecast</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-card-container">
+                        <div class="img-card">
+                            <div class="overlay"></div>
+                            <div class="info">
+                                <h3>Paytm Clone</h3>
+                                <span>GITHUB</span>
+                            </div>
+                            <img src="Projects-Images\paytm.jpg" alt="naruto-img">
+                        </div>
+                        <div class="portfolio-model flex-center">
+                            <div class="portfolio-model-body">
+                                <i class="fas fa-times portfolio-close-btn"></i>
+                                <h3>Paytm Clone</h3>
+                                <img src="Projects-Images\paytm.jpg" alt="img">
+                                <p>"I have developed a responsive clone of the Paytm website using HTML and CSS. The
+                                    website features a clean and modern design, with a focus on providing a
+                                    user-friendly experience across all devices. The main features of the website
+                                    include a home page with various sections, such as mobile recharges, bill payments,
+                                    and movie tickets".</p>
+                                <a
+                                    href="https://enoshraju.github.io/PAYTM-CLONE/"><span>Paytm Clone/</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact section" id="contact">
+        <div class="container flex-center">
+            <h1 class="section-title-01">Contact Me</h1>
+            <h2 class="section-title-02">Contact Me</h2>
+            <div class="content">
+                <div class="contact-left">
+                    <h2>Lets Discuss Your Project</h2>
+                    <ul class="contact-list">
+                        <li>
+                            <h3 class="item-title"><i class="fas fa-phone"></i> Phone</h3>
+                            <span>+918247011952</span>
+                        </li>
+                        <li>
+                            <h3 class="item-title"><i class="fas fa-envelope"></i>Email</h3>
+                            <span><a href="mailto:enoshraj76@gmail.com" id="em">enoshraj76@gmail.com</a></span>
+                        </li>
+                        <li>
+                            <h3 class="item-title"><i class="fas fa-map-marker-alt"></i> Address</h3>
+                            <span>Hyderabad, Telangana</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formsubmit.co/enoshraj76@gmail.com" method="POST" class="contact-form">
+                        <input type="hidden" name="_next" value="greetPage.html">
+                        <div class="first-row">
+                            <input type="text" name="eame" placeholder="Name" required>
+                        </div>
+                        <div class="second-row">
+                            <input type="email" name="email" placeholder="Email" required>
+                            <input type="text" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="third-row">
+                            <textarea name="message" id="" rows="7" placeholder="Message" required></textarea>
+                        </div>
+                        <button class="btn" type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="about-group">
+                <h2>Kaligithi Enosh</h2>
+                <p>Front-End Developer</p>
+            </div>
+            <div class="hr"></div>
+            <div class="info-group">
+                <h3>More</h3>
+                <ul>
+                    <li><a href="#skills-grid">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="hr"></div>
+            <div class="follow-group">
+                <h3>Follow</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100010452042546"><i class="fa-brands fa-facebook fa-2x"></i></a></li>
+                    <li><a href="linkedin.com/in/enosh-raju-87854b166"><i class="fa-brands fa-linkedin fa-2x"></i></a></li>
+                    <li><a href="https://github.com/ENOSHRAJU"><i class="fa-brands fa-github fa-2x"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
